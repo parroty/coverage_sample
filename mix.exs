@@ -5,7 +5,13 @@ defmodule CoverageSample.Mixfile do
     [ app: :coverage_sample,
       version: "0.0.1",
       elixir: "~> 0.10.3-dev",
-      deps: deps ]
+      deps: deps,
+      env: [
+        coveralls_travis:  [
+          test_coverage: [output: "ebin", tool: ExCoveralls, type: "travis"]
+        ]
+      ]
+    ]
   end
 
   # Configuration for the OTP application
