@@ -1,0 +1,2 @@
+defmodule CoverageSample do
+end
