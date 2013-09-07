@@ -7,9 +7,8 @@ defmodule CoverageSample.Mixfile do
       elixir: "~> 0.10.3-dev",
       deps: deps,
       env: [
-        coveralls_travis:  [
-          test_coverage: [output: "ebin", tool: ExCoveralls, type: "travis"]
-        ]
+        coveralls_travis:  [test_coverage: [tool: ExCoveralls, type: "travis"]],
+        coveralls_local:   [test_coverage: [tool: ExCoveralls, type: "local"]]
       ]
     ]
   end
