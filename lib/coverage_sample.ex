@@ -11,3 +11,5 @@ defmodule CoverageSample do
     x * y
   end
 end
+
+
