@@ -4,8 +4,9 @@ defmodule CoverageSample.Mixfile do
   def project do
     [ app: :coverage_sample,
       version: "0.0.1",
-      elixir: "~> 0.10.3-dev",
-      deps: deps
+      elixir: ">= 0.14.0",
+      deps: deps,
+      test_coverage: [tool: ExCoveralls]
     ]
   end
 
