@@ -1,3 +1,6 @@
-%{"excoveralls": {:git, "git://github.com/parroty/excoveralls.git", "12226760f08ecb3454515268d48bc1aa0a4a5ec9", []},
-  "jsex": {:package, "2.0.0"},
-  "jsx": {:package, "2.0.4"}}
+%{"excoveralls": {:git, "git://github.com/parroty/excoveralls.git", "43add5272cff56712e74167b8ed86387183baead", []},
+  "exjsx": {:hex, :exjsx, "3.1.0"},
+  "hackney": {:hex, :hackney, "1.1.0"},
+  "idna": {:hex, :idna, "1.0.2"},
+  "jsx": {:hex, :jsx, "2.4.0"},
+  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.4"}}
